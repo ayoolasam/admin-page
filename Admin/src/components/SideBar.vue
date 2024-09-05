@@ -10,7 +10,7 @@
 
     <Transition name="fade">
       <ul
-        v-if="toggle"
+        v-if="!toggle"
         class="lists items-center ease-in text-primary mt-[50px] p-[10px] flex flex-col gap-[5px]"
       >
         <li
