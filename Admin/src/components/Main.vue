@@ -1,6 +1,7 @@
 <template>
   <div class="main bg-tertiary w-full">
     <nav class="py-[8px] bg-secondary px-4 flex justify-end shadow-sm">
+     
       <div
         class="user flex items-center gap-[10px] border-2 bg-tertiary rounded-2xl px-[10px]"
       >
@@ -390,6 +391,9 @@ padding: 30px;
   }
 }
 
+@media (max-width: 794px) {
+
+}
 
 
 </style>
